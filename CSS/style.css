@@ -1,0 +1,85 @@
+body {
+  margin: 0 auto;
+  background: linear-gradient(to top left, #1f003b, #b06fd5);
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.content{
+  width: auto;
+  height: auto;
+  margin: auto;
+}
+.main-menu{
+  background-color: black;
+  width: 100%;
+}
+.main-menu > ul{
+  margin: 15px;
+  padding: 15px;
+  list-style-type: none;
+}
+.main-menu > ul > li{
+  display: inline-block;
+}
+.main-menu > ul > li > a{
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 15px;
+}
+.main-menu > ul > li > a:hover{
+  background-color: rgb(43, 22, 63);
+}
+.clearfix{
+  clear: both;
+}
+.main-photo{
+  position: relative;
+  text-align: center;
+  color: black;
+}
+.name{
+  font-size: 35;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  position: absolute;
+  top: 16%;
+  left: 50%;
+  transform: translate(-50%)
+}
+.welcome{
+  text-align: center;
+  font-size: 30;
+  margin: 20px;
+}
+
+.main-footer{
+  background-color: black;
+  color: white;
+  list-style-type: none;
+  font-size: 13;
+  width: 0 auto;
+  height: auto;
+  padding: 5px;
+  
+}
+.footer-box{
+  width: 0 auto;
+  height: max-content;
+  float: left;
+}
+.footer-box > ul > li{
+  display: block;
+}
+.footer-box > ul > li > a{
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 5px;
+}
+.footer-box > ul > li > a:hover{
+  background-color: rgb(43, 22, 63);
+  width: fit-content;
+}
+.address{
+  float: right;
+}
