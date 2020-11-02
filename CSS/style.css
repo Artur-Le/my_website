@@ -48,8 +48,8 @@ body {
 }
 .welcome{
   text-align: center;
-  font-size: 30;
-  margin: 20px;
+  font-size: 32;
+  margin: 25px;
 }
 
 .main-footer{
@@ -82,4 +82,10 @@ body {
 }
 .address{
   float: right;
+
+}
+.about1{
+  height: 600px;
+  float: left;
+  padding: 10px;
 }
