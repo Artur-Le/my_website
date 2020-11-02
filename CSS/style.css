@@ -38,6 +38,7 @@ body {
   position: relative;
   text-align: center;
   color: black;
+  margin: 10px;
 }
 .name{
   font-size: 35;
@@ -45,8 +46,31 @@ body {
   position: absolute;
   top: 16%;
   left: 50%;
-  transform: translate(-50%)
+  transform: translate(-50%);
+  animation-name: artur;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
+@keyframes artur{
+  0%{
+    color: black;
+  }
+  25%{
+    color: blueviolet;
+    font-size: 50;
+  }
+  50%{
+    color: rgb(199, 143, 252);
+  }
+  75%{
+    color: blueviolet;
+  }
+  100%{
+    color: black;
+  }
+
+}
+
 .welcome{
   text-align: center;
   font-size: 32;
