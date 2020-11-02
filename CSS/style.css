@@ -50,6 +50,7 @@ body {
   text-align: center;
   font-size: 32;
   margin: 25px;
+  text-shadow: 2px 2px black;
 }
 
 .main-footer{
@@ -86,9 +87,16 @@ body {
 
 /* about-us page */
 
+.galery{
+  text-shadow: 2px 2px black;
+}
 .about1{
   height: 600px;
   float: left;
+  padding: 10px;
+}
+.about2{
+  height: 350px;
   padding: 10px;
 }
 
@@ -130,7 +138,6 @@ input:focus{
 textarea:focus{
   background-color:rgb(175, 175, 175);
 }
-
 .banner iframe{
   width: 100%;
   height: 400px;
