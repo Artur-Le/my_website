@@ -1,3 +1,3 @@
 # My website
 
-## W tym projekcie chciałbym przedstawić projekt mojej osobistej strony.
+## W tym projekcie chciałbym przedstawić moją osobistą stronę.
